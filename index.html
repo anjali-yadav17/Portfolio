@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjali Yadav | Professional Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+    <!-- Navigation Bar -->
+    <nav id="navbar" class="glass-nav">
+        <div class="nav-container">
+            <a href="#home" class="logo">AY<span>.</span></a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" id="theme-toggle" title="Toggle Light/Dark Theme">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content reveal">
+            <h1 class="hero-title">Hi, I'm <span class="gradient-text">Anjali Yadav</span></h1>
+            <h2 class="hero-subtitle">Software Engineer</h2>
+            <p class="hero-desc">B.Tech Computer Science student passionate about building reliable and high-quality software through testing..</p>
+            <div class="hero-buttons">
+                <a href="resume.pdf" download="resume.pdf" class="btn btn-primary">Download Resume</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/anjali-yadavlpu2027" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/anjali-yadav17" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:anjaliy52381@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image reveal-right">
+            <div class="image-wrapper geometric-shape">
+                <!-- Placeholder for Profile Image -->
+                <div class="profile-placeholder">
+                    <h2>AY</h2>
+                </div>
+                <!-- <img src="images/profile.jpg" alt="Anjali Yadav"> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="section-header reveal">
+            <h2>About <span class="gradient-text">Me</span></h2>
+        </div>
+        <div class="about-content reveal-up">
+            <div class="about-text glass-card">
+                <h3>Who I Am</h3>
+                <p>I am a third-year B.Tech Computer Science Engineering student at Lovely
+                    Professional University. My core specialization is in Software Testing, and I am also actively
+                    expanding my skill set in Android Development. I am passionate about applying my technical knowledge
+                    to build efficient, reliable digital solutions and strengthening my abilities using Java, Kotlin,
+                    and clean UI practices.</p>
+                <p>During my studies, I have focused heavily on building robust software systems. I developed a "Blood
+                    Bank Locator and Dispatcher" application using C++ and Data Structures, implementing arrays and a
+                    priority queue to efficiently manage donor records and prioritize urgent blood requests.
+                    Additionally, I built an AI Chatbot that serves as a seasonal fashion guide, utilizing Python and
+                    NLP alongside a web interface. These projects allowed me to tackle complex logic and ensure seamless
+                    user experiences.</p>
+                <p>My mission is to engineer software that operates flawlessly and feels intuitive over time. As I
+                    advance in Software Testing and Automation, my ultimate goal is to join innovative teams where I can
+                    grow into a professional who consistently elevates code and enhances the user experience.</p>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Lovely Professional University</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="section-header reveal">
+            <h2>My <span class="gradient-text">Skills</span></h2>
+        </div>
+        <div class="skills-grid">
+            <!-- Languages -->
+            <div class="skill-category glass-card reveal-up">
+                <h3><i class="fas fa-code"></i> Programming</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <span><i class="fas fa-c"></i> C / C++</span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fab fa-java"></i> Java</span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fab fa-python"></i> Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fab fa-android"></i> Kotlin</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web -->
+            <div class="skill-category glass-card reveal-up" style="transition-delay: 0.1s;">
+                <h3><i class="fas fa-globe"></i> Web</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <span><i class="fab fa-html5"></i> HTML / CSS <i class="fab fa-css3-alt"></i></span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fab fa-js-square"></i> JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Development Tools / Platforms -->
+            <div class="skill-category glass-card reveal-up" style="transition-delay: 0.2s;">
+                <h3><i class="fas fa-tools"></i> Development Tools / Platforms</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <span><i class="fab fa-git-alt"></i> Git & GitHub <i class="fab fa-github"></i></span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fas fa-code"></i> Eclipse</span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fas fa-box-open"></i> Maven</span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fab fa-android"></i> Android Studio</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testing Tools -->
+            <div class="skill-category glass-card reveal-up" style="transition-delay: 0.3s;">
+                <h3><i class="fas fa-check-double"></i> Testing Tools</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <span><i class="fas fa-search"></i> Manual Testing</span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fas fa-cogs"></i> Functional Testing</span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fas fa-vial"></i> Test Design</span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fas fa-shield-alt"></i> Quality Assurance</span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fas fa-sitemap"></i> STLC</span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fas fa-tasks"></i> SDLC</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Automation Testing -->
+            <div class="skill-category glass-card reveal-up" style="transition-delay: 0.4s;">
+                <h3><i class="fas fa-robot"></i> Automation Testing</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <span><i class="fas fa-mouse-pointer"></i> Selenium</span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fas fa-flask"></i> TestNG</span>
+                    </div>
+                    <div class="skill-item">
+                        <span><i class="fas fa-vials"></i> JUnit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="section-header reveal">
+            <h2><span class="gradient-text">Projects</span></h2>
+        </div>
+        <div class="projects-grid">
+
+            <div class="project-card glass-card reveal-up">
+                <div class="project-img placeholder-img">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Intelligent CPU Scheduler Simulator</h3>
+                    <p>A simulator for algorithms like FCFS, SJF, Priority, and Round Robin. Visualizes dynamic
+                        algorithm selection and Gantt charts.</p>
+                    <div class="tech-stack">
+                        <span>C++</span>
+                        <span>DSA</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/anjali-yadav17/CSE-316---Intelligent-CPU-Scheduler-SimulatorSc"
+                            target="_blank" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card glass-card reveal-up" style="transition-delay: 0.1s;">
+                <div class="project-img placeholder-img">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="project-info">
+                    <h3>AI Chatbot & Fashion Guide</h3>
+                    <p>Python NLP chatbot integrated with a web interface using HTML, CSS, JS to provide real-time
+                        seasonal fashion recommendations.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>NLP</span>
+                        <span>HTML/CSS/JS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/anjali-yadav17/Seasonal-Fashion-Guide" target="_blank"
+                            class="btn btn-sm btn-outline"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card glass-card reveal-up" style="transition-delay: 0.2s;">
+                <div class="project-img placeholder-img">
+                    <i class="fas fa-truck-medical"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Blood Bank Locator & Dispatcher</h3>
+                    <p>C++ application using priority queues and arrays to organize donor records and prioritize urgent
+                        blood requests efficiently.</p>
+                    <div class="tech-stack">
+                        <span>C++</span>
+                        <span>DSA</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/anjali-yadav17/Blood-Bank-Locator-Dispatcher" target="_blank"
+                            class="btn btn-sm btn-outline"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Projects -->
+            <div class="project-card glass-card reveal-up">
+                <div class="project-img placeholder-img">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Online Marketplace for Crafts</h3>
+                    <p>An HTML/CSS/JS based frontend interface for exploring and purchasing handmade crafts online.</p>
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/anjali-yadav17/Online-marketplace-for-handmade-crafts"
+                            target="_blank" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="project-card glass-card reveal-up" style="transition-delay: 0.2s;">
+                <div class="project-img placeholder-img">
+                    <i class="fas fa-magnifying-glass-chart"></i>
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce Web Scraper</h3>
+                    <p>Python and Selenium-based program to dynamically scrape real-time product details and store them
+                        in a structured format.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Selenium</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/anjali-yadav17/SCT_SD_04" target="_blank"
+                            class="btn btn-sm btn-outline"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Training Section -->
+    <section id="training" class="training section-padding">
+        <div class="section-header reveal">
+            <h2>Summer <span class="gradient-text">Training</span></h2>
+        </div>
+        <div class="timeline reveal-up">
+            <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <h4>SkillCraft Technology</h4>
+                <p class="timeline-date">Jul 2025 - Aug 2025</p>
+                <div class="timeline-content">
+                    <h5>Software Development Projects</h5>
+                    <ul>
+                        <li>Applied core concepts such as functions, loops, conditionals, DOM manipulation, and
+                            backtracking to build efficient logic.</li>
+                        <li>Enhanced user experience using real-time feedback, dynamic UI updates, input validation, and
+                            timers.</li>
+                        <li>Automated data extraction using Python and Selenium, handling dynamic web content.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <h4>Lovely Professional University</h4>
+                <p class="timeline-date">Jun 2025 - Jul 2025</p>
+                <div class="timeline-content">
+                    <h5>Blood Bank Locator & Dispatcher Project</h5>
+                    <ul>
+                        <li>Designed and implemented the core location and dispatch system utilizing priority queues.
+                        </li>
+                        <li>Improved algorithm efficiency for matching donors with urgent blood requests.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements section-padding">
+        <div class="section-header reveal">
+            <h2>Key <span class="gradient-text">Achievements</span></h2>
+        </div>
+        <div class="achievements-container reveal-up">
+            <div class="glass-card achievement-card">
+                <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
+                <div class="achievement-text">
+                    <h3>150+ DSA Problems Solved</h3>
+                    <p>Successfully solved over 150 Data Structures and Algorithms problems across LeetCode and
+                        HackerRank, solidifying problem-solving and optimization skills.</p>
+                    <span class="date-badge">Nov 2025</span>
+                </div>
+            </div>
+            <div class="glass-card achievement-card">
+                <div class="achievement-icon"><i class="fas fa-medal"></i></div>
+                <div class="achievement-text">
+                    <h3>HackerRank Silver Badges</h3>
+                    <p>Earned recognized Silver Badges in C++ and Java on HackerRank for consistently strong
+                        Object-Oriented Programming capability.</p>
+                    <span class="date-badge">Nov 2025</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section-padding">
+        <div class="section-header reveal">
+            <h2><span class="gradient-text">Certifications</span></h2>
+        </div>
+        <div class="certifications-grid">
+            <div class="cert-card glass-card reveal-up">
+                <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                <h4>Privacy and Security in Online Social Media</h4>
+                <p>NPTEL • Nov 2025</p>
+            </div>
+            <div class="cert-card glass-card reveal-up" style="transition-delay: 0.1s;">
+                <div class="cert-icon"><i class="fas fa-shield-halved"></i></div>
+                <h4>Software Engineering and Agile Dev</h4>
+                <p>Infosys • Jun 2025</p>
+            </div>
+            <div class="cert-card glass-card reveal-up" style="transition-delay: 0.2s;">
+                <div class="cert-icon"><i class="fas fa-network-wired"></i></div>
+                <h4>Social Networks</h4>
+                <p>NPTEL • Apr 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section-padding text-center">
+        <div class="section-header reveal">
+            <h2>My <span class="gradient-text">Resume</span></h2>
+            <p>Ready to see the full details of my work and experience?</p>
+        </div>
+        <div class="reveal-up">
+            <a href="resume.pdf" download class="btn btn-primary btn-large glow-effect"
+                style="display: inline-block; text-decoration: none;">
+                <i class="fas fa-download"></i> Download Resume 
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="section-header reveal">
+            <h2>Let's <span class="gradient-text">Connect</span></h2>
+        </div>
+        <div class="contact-container reveal-up">
+            <div class="contact-info glass-card">
+                <h3>Contact Information</h3>
+                <p>I'm always open to discussing tech, software testing roles, or new opportunities. Drop me a message!
+                </p>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>anjaliy52381@gmail.com</p>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <p><a href="https://linkedin.com/in/anjali-yadavlpu2027" target="_blank"
+                            style="color: var(--text-secondary); text-decoration: none;">LinkedIn</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <p><a href="https://github.com/anjali-yadav17" target="_blank"
+                            style="color: var(--text-secondary); text-decoration: none;">GitHub</a></p>
+                </div>
+            </div>
+
+            <div class="contact-form glass-card">
+                <form id="portfolio-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required placeholder="XYZ">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" required placeholder="XYZ@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required placeholder="Hello Anjali..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo"></div>
+            <p>&copy; 2026 Anjali Yadav. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/anjali-yadavlpu2027" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/anjali-yadav17" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <a href="#home" class="scroll-top"><i class="fas fa-chevron-up"></i></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
