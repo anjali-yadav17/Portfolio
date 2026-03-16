@@ -510,11 +510,10 @@ background: linear-gradient(135deg, var(--bg-card-glass) 0%, rgba(2, 44, 34, 0.1
 }
 
 .profile-img{
-    width:100%;
-    height:100%;
-    object-fit:contain;   /* shows full image */
+    width:90%;
+    height:90%;
+    object-fit:contain;
     border-radius:50%;
-    background:#fff;      /* optional background */
 }
 
 .placeholder-img {
