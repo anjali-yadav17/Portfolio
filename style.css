@@ -353,11 +353,15 @@ a { text-decoration: none; color: inherit; }
     justify-content: center; /* Center instead of flex-end */
 }
 
-.image-wrapper {
+.image-wrapper{
     position: relative;
-    width: 450px;
-    height: 450px;
+    width:350px;   /* reduced from 450px */
+    height:350px;  /* reduced from 450px */
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
+
 
 /* Changed geometric shape completely */
 .geometric-shape {
