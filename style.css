@@ -373,15 +373,13 @@ background: linear-gradient(135deg, var(--bg-card-glass) 0%, rgba(2, 44, 34, 0.1
 }
 
 .profile-placeholder {
- 
-    width:450px;
-    height:450px;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    overflow:hidden;
-
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple)); /* changed angle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.85;
 }
 
 .profile-placeholder h2 {
@@ -511,11 +509,13 @@ background: linear-gradient(135deg, var(--bg-card-glass) 0%, rgba(2, 44, 34, 0.1
     border-radius: 20px;
 }
 
-.profile-img{
-    width:90%;
-    height:90%;
-    object-fit:contain;
-    border-radius:50%;
+.project-img {
+    height: 250px; /* Taller image */
+    width: 100%;
+    background: var(--bg-secondary);
+    border-bottom: 2px solid var(--accent-blue); /* Changed border to accent */
+    overflow: hidden;
+    position: relative;
 }
 
 .placeholder-img {
