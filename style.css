@@ -509,13 +509,12 @@ background: linear-gradient(135deg, var(--bg-card-glass) 0%, rgba(2, 44, 34, 0.1
     border-radius: 20px;
 }
 
-.project-img {
-    height: 250px; /* Taller image */
-    width: 100%;
-    background: var(--bg-secondary);
-    border-bottom: 2px solid var(--accent-blue); /* Changed border to accent */
-    overflow: hidden;
-    position: relative;
+.profile-img{
+    width:100%;
+    height:100%;
+    object-fit:contain;   /* shows full image */
+    border-radius:50%;
+    background:#fff;      /* optional background */
 }
 
 .placeholder-img {
