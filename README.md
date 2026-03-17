@@ -37,3 +37,8 @@ This is my personal portfolio website showcasing my **skills, projects, certific
 
 ## 📬 Contact
 🌐 [My Portfolio](https://portfolio-anjali-omega.vercel.app/)
+
+---
+
+⭐ This portfolio represents my technical journey, skills, and projects, and reflects my dedication to becoming a skilled Software Engineer.
+
