@@ -1,18 +1,39 @@
-#🌐 Anjali Yadav - Portfolio
-📌 Overview
+# 🌐 Portfolio - Anjali Yadav
 
-This is my personal portfolio website that showcases my skills, projects, certifications, and experience as a Computer Science Engineering student.
+## 📌 Overview
+This is my personal portfolio website showcasing my **skills, projects, certifications, and training** as a Computer Science Engineering student.
 
-The portfolio acts as a digital resume to present my technical abilities and achievements in a structured and professional way.
+---
 
-#👩‍💻 About Me
+## 👩‍💻 Skills
+- **Programming:** C, C++, Java, Python  
+- **Testing:** Manual Testing, Functional Testing, SDLC, STLC  
+- **Tools:** Selenium, TestNG, JUnit  
+- **Web:** HTML, CSS, JavaScript  
 
-I am a Computer Science Engineering student with a strong interest in Software Testing and Web Development.
+---
 
-I am passionate about:
+## 🚀 Projects
+- **CPU Scheduler Simulator** – C++ scheduling algorithms with Gantt charts  
+- **AI Chatbot & Fashion Guide** – Python NLP chatbot with web interface  
+- **Blood Bank Locator** – Priority-based donor management system  
+- **Online Crafts Marketplace** – Frontend web project  
+- **E-commerce Web Scraper** – Python & Selenium automation  
 
-Building efficient applications
+---
 
-Solving real-world problems
+## 🎓 Certifications
+- Social Networks – NPTEL  
+- Online Social Media & Privacy – NPTEL  
+- Agile Testing  
 
-Ensuring software quality through testing
+---
+
+## 💼 Training
+- **SkillCraft Technology** – Software development & automation  
+- **LPU** – Blood Bank project using priority queues  
+
+---
+
+## 📬 Contact
+🌐 [My Portfolio](https://portfolio-anjali-omega.vercel.app/)
