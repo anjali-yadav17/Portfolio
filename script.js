@@ -93,4 +93,38 @@ if (form) {
         }, 1500);
     });
 }
-const roles = ["Software Engineer", "Software Tester"];
+// ===== Hero Subtitle Typing Effect =====
+const roles = ["Software Engineer 🚀", "Software Tester 🔍"];
+let roleIndex = 0;
+let charIndex = 0;
+let currentText = "";
+let isDeleting = false;
+
+const typingElement = document.getElementById("typing-text");
+
+function typeEffect() {
+    const fullText = roles[roleIndex];
+
+    if (isDeleting) {
+        currentText = fullText.substring(0, charIndex--);
+    } else {
+        currentText = fullText.substring(0, charIndex++);
+    }
+
+    typingElement.textContent = currentText;
+
+    let speed = isDeleting ? 50 : 100;
+
+    if (!isDeleting && charIndex === fullText.length) {
+        speed = 1500; // pause after typing
+        isDeleting = true;
+    } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        roleIndex = (roleIndex + 1) % roles.length;
+        speed = 500;
+    }
+
+    setTimeout(typeEffect, speed);
+}
+
+typeEffect();
