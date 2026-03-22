@@ -93,40 +93,45 @@ if (form) {
         }, 1500);
     });
 }
-// ===== Hero Subtitle Typing Effect =====
+// ===== Smooth Hero Subtitle Typing Effect =====
 const roles = [
-    "Software Engineer",
+    "Aspiring Software Engineer",
     "Software Tester"
 ];
 
 let roleIndex = 0;
 let charIndex = 0;
-let currentText = "";
 let isDeleting = false;
 
 const typingElement = document.getElementById("typing-text");
 
 function typeEffect() {
-    const fullText = roles[roleIndex];
+    const currentRole = roles[roleIndex];
+    let displayText;
 
     if (isDeleting) {
-        currentText = fullText.substring(0, charIndex--);
+        displayText = currentRole.substring(0, charIndex - 1);
+        charIndex--;
     } else {
-        currentText = fullText.substring(0, charIndex++);
+        displayText = currentRole.substring(0, charIndex + 1);
+        charIndex++;
     }
 
-    typingElement.textContent = currentText;
+    typingElement.textContent = displayText;
 
-    let speed = isDeleting ? 50 : 100;
+    let speed = isDeleting ? 40 : 80;
 
-    if (!isDeleting && charIndex === fullText.length) {
-        speed = 1500; // pause
+    // When word is fully typed
+    if (!isDeleting && charIndex === currentRole.length) {
+        speed = 1200; // pause before deleting
         isDeleting = true;
-    } 
+    }
+
+    // When word is fully deleted
     else if (isDeleting && charIndex === 0) {
         isDeleting = false;
         roleIndex = (roleIndex + 1) % roles.length;
-        speed = 500;
+        speed = 300;
     }
 
     setTimeout(typeEffect, speed);
