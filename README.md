@@ -23,9 +23,10 @@ This is my personal portfolio website showcasing my **skills, projects, certific
 ---
 
 ## 🎓 Certifications
-- Social Networks – NPTEL  
+- Social Networks – NPTEL
+- Agile Testing - Infosys 
 - Online Social Media & Privacy – NPTEL  
-- Agile Testing - Infosys
+
 
 ---
 
