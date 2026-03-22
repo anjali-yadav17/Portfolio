@@ -95,7 +95,7 @@ if (form) {
 }
 // ===== Smooth Hero Subtitle Typing Effect =====
 const roles = [
-    "Aspiring Software Engineer",
+    "Software Engineer",
     "Software Tester"
 ];
 
