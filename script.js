@@ -95,8 +95,8 @@ if (form) {
 }
 // ===== Hero Subtitle Typing Effect =====
 const roles = [
-    "Aspiring Software Engineer 🚀",
-    "Software Tester 🔍"
+    "Software Engineer",
+    "Software Tester"
 ];
 
 let roleIndex = 0;
