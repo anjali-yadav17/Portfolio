@@ -93,8 +93,13 @@ if (form) {
         }, 1500);
     });
 }
+
 // ===== Hero Subtitle Typing Effect =====
-const roles = ["Software Engineer 🚀", "Software Tester 🔍"];
+const roles = [
+    "Aspiring Software Engineer 🚀",
+    "Software Tester 🔍"
+];
+
 let roleIndex = 0;
 let charIndex = 0;
 let currentText = "";
@@ -116,9 +121,10 @@ function typeEffect() {
     let speed = isDeleting ? 50 : 100;
 
     if (!isDeleting && charIndex === fullText.length) {
-        speed = 1500; // pause after typing
+        speed = 1500; // pause
         isDeleting = true;
-    } else if (isDeleting && charIndex === 0) {
+    } 
+    else if (isDeleting && charIndex === 0) {
         isDeleting = false;
         roleIndex = (roleIndex + 1) % roles.length;
         speed = 500;
