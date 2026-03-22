@@ -93,3 +93,4 @@ if (form) {
         }, 1500);
     });
 }
+const roles = ["Software Engineer", "Software Tester"];
